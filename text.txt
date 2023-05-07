@@ -60,3 +60,23 @@ if ($conn->query($sql) === TRUE) {
 $conn->close();
 
 ?>
+
+
+
+
+
+
+
+
+<?php
+(isset($_POST['n']) && isset($_POST['×'])) {
+$n = $_POST['n'];
+$x = $_POST['×'];
+
+Input values x is :
+for ($i = 1; $i <= $n; $i++) {
+$result = $x * $i;
+echo $x. 'x'. $i. '= '. $result .
+'br>':}
+}
+?>
