@@ -27,6 +27,17 @@ ORDER BY date DESC;
 
 
 
+
+SELEC first name
+FROM customers
+WHERE first
+name LIKE
+Jump to..
+J%';
+
+
+
+
 <?php
 
 $servername = "localhost";
